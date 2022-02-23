@@ -1,0 +1,20 @@
+{
+    "name": "gunter_chou/gclb-auto-ssl",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GunterChou\\GclbAutoSsl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gunter Chou",
+            "email": "abcd2221925@gmail.com"
+        }
+    ],
+    "require": {
+        "google/cloud-compute": "^1.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
